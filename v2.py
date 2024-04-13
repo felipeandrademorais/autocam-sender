@@ -6,7 +6,7 @@ import cv2
 # Inicialização de variáveis globais
 toggle_alert = True
 manual_move = None
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(5)
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 # Função para captura contínua da câmera

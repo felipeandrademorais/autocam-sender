@@ -18,10 +18,10 @@ last_message_time = time.time()
 
 
 # Carregue o modelo de detector de rostos pré-treinado do OpenCV.
-face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('haarcascade_upperbody.xml')
 
 # Abra a webcam.
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(5)
 
 while True:
     # Leia um frame da webcam.

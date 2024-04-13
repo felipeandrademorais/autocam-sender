@@ -1,0 +1,4 @@
+opencv-python
+pillow
+tk
+paho-mqtt==1.5.1
